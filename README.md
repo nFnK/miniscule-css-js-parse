@@ -16,7 +16,7 @@ See example/
 
 ```
 <?php
-require '../src/miniscule.php';
+require 'vendor/woodscreative/miniscule/miniscule.php';
 use Woodscreative\Miniscule as Miniscule;
 
 $salt         = '1.0';
