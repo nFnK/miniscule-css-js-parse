@@ -10,7 +10,7 @@ composer require woodscreative/miniscule
 
 ## Using
 
-See example/
+See **/example** for further deets.
 
 ## PHP
 
