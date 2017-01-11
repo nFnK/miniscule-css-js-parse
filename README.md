@@ -1,6 +1,6 @@
 # Miniscule
 
-A PHP CSS/JS asset compiler.
+A PHP CSS/JS asset compiler. Compiles resources into a single asset file that can be minified for output. Output file name is hashed using the defined **salt**. When the salt is changed a new file is created.
 
 ## Installing
 
