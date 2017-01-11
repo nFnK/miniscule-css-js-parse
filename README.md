@@ -4,7 +4,9 @@ A PHP CSS/JS asset compiler.
 
 ## Installing
 
+```
 composer require woodscreative/miniscule
+```
 
 ## Using
 
