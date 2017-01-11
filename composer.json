@@ -1,0 +1,17 @@
+{
+  "name" : "woodscreative/miniscule",
+  "description" : "A PHP CSS/JS asset compiler.",
+  "authors": [
+    {
+      "name": "Paul Woods",
+      "email": "woodscreated@gmail.com",
+      "homepage": "https://github.com/woodscreative"
+    }
+  ],
+  "require" : {
+      "php" : ">=5.4",
+  },
+  "autoload" : {
+    "classmap" : ["."]
+  }
+}
