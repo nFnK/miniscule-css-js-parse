@@ -5,7 +5,7 @@ namespace Woodscreative;
  * A PHP CSS/JS asset compiler.
  * Makes use of https://github.com/mrclay/minify see below copyright information
  * @author Paul Woods (https://github.com/woodscreative)
- * @version 1.0.0
+ * @version 1.0.1
  */
 class Miniscule
 {
@@ -90,9 +90,9 @@ class Miniscule
   	  or $args['forceRefresh']) {
     	// Minify output?
       if ($args['minify']) {
-        $content = self::minify( $content, $key );
+        $content = self::minify($key, $content);
       };
-      file_put_contents( $relativeUrlToAsset, $content );
+      file_put_contents($relativeUrlToAsset, $content);
   	};
   	return $relativeUrlToAsset;
   }
@@ -101,7 +101,7 @@ class Miniscule
    * @param string $type [css,js] Supported resource type
    * @param string $data Resource content to minify
    */
-  public static function minify( $type, $data )
+  public static function minify($type, $data)
   {
     switch( $type )
     {
